@@ -56,14 +56,18 @@ img{
 }
 /**Grid**/
 @media (min-width:768px){
-  .gird{
+  .grid{
     display: flex;
     justify-content: space-between;
-    
-  }
-  .columas-6{
-    flex: 0 0 calc(50% - 1rem);
 
+  }
+
+  .columnas-6{
+    flex: 0 0 calc(50% - 1rem);
+  }
+  .columnas-6 p {
+    margin-block-start: -1rem;
+    margin-block-end: 4rem;
   }
 }
 
