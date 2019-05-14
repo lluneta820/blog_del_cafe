@@ -54,6 +54,20 @@ img{
 .no-margin{
   margin: 0;
 }
+/**Grid**/
+@media (min-width:768px){
+  .gird{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .columas-6{
+    flex: 0 0 calc(50% - 1rem);
+
+  }
+}
+
+
 /**Botones**/
 .btn{
   display: block;
@@ -117,6 +131,10 @@ img{
   font-weight: 700;
 }
 /**navegacion**/
+nav.navegacion {
+  padding: 2rem;
+}
+
 .navegacion a {
   text-align: center;
   display: block;
@@ -230,8 +248,7 @@ img{
 /**Footer**/
 .site-footer{
   background-color: #000000;
-  padding: 1rem;
-  margin-top: 15rem;
+  margin-top: 6rem;
 
 }
 .site-footer p{
@@ -240,6 +257,7 @@ img{
   font-weight: 400;
   font-family: 'PT Sans',sans-serif;
   text-align: center;
+  margin: 0;
 
 }
 .site-footer p span{
