@@ -232,6 +232,7 @@ nav.navegacion {
 
 }
 .curso{
+  padding-top: 3rem;
   padding-bottom: 3rem;
   border-bottom: 1px solid #e1e1e1;
 
@@ -245,10 +246,12 @@ nav.navegacion {
   font-weight: 700;
   font size : 2rem;
 }
-.curso p span{
+.curso p span,
+.curso p.descripcion{
   font-weight: 400;
 
 }
+
 /**Footer**/
 .site-footer{
   background-color: #000000;
@@ -266,5 +269,10 @@ nav.navegacion {
 }
 .site-footer p span{
   font-weight: 400;
+
+}
+
+.columnas-8{
+  margin-left: 2rem;
 
 }
