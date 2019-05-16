@@ -69,6 +69,14 @@ img{
     margin-block-start: -1rem;
     margin-block-end: 4rem;
   }
+  .columas-10{
+      flex: 0 0 calc(83.3% - 1rem);
+
+  }
+  .columnas-12{
+    flex: 0 0 100%;
+   }
+
 }
 
 
